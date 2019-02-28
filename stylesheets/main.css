@@ -1,0 +1,157 @@
+.piano{
+	width: 1250px;
+	height:550px;
+	border: solid 2px black;
+	margin: 0 auto;
+	position: relative;
+	background-color: black;
+	margin-top: 150px;
+}
+
+#keyname{
+	width: 400px;
+	height:100px;
+	border: solid 2px white;
+	background-color: #1fefd7;
+	position: absolute;
+	left:450px;
+	top: 25px;
+}
+
+.keys{
+	width:950px;
+	border: solid 3px white;
+	top:200px;
+	left:180px;
+	position: absolute;
+
+}
+
+.white-keys{
+	width:60px;
+	height:300px;
+	background-color: white;
+	border:solid 1px black;
+	display:inline;
+	position: relative;
+	margin-left: 4px;
+}
+
+.black-keys{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 44px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys2{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 110px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys3{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 244px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys4{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 314px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys5{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 384px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys6{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 520px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys7{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 590px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys8{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 720px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+
+.black-keys9{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 794px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
+.black-keys10{
+	position: absolute;
+	width:50px;
+	height:170px;
+	display: inline;
+	z-index: 99;
+	margin-left: 864px;
+	margin-top: -302px;
+	background-color: black;
+	border: solid 1px white;
+}
