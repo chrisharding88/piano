@@ -1,6 +1,6 @@
 
 
-
+/***************************Constants********************************************/
 const c2 = new Audio("keys/C2.mp3");
 const cSharp2 = new Audio("keys/Csharp2.mp3");
 const d2 = new Audio("keys/D2.mp3");
@@ -23,6 +23,9 @@ const g3 = new Audio("keys/G3.mp3");
 const gSharp3 = new Audio("keys/Gsharp3.mp3")
 const a3 = new Audio("keys/A3.mp3");
 const b3 = new Audio("keys/B3.mp3");
+
+
+/***************************************Click Functions******************************************/
 
 
 const playSound = audio =>{
@@ -107,7 +110,7 @@ const playGsharp2 = () => {
 	gSharp2Key.classList.add("active");
 	setTimeout(() => gSharp2Key.classList.remove("active"),200);
 };
-gSharp2Key.addEventListener("click", playCsharp2);
+gSharp2Key.addEventListener("click", playGsharp2);
 
 const a2Key = document.querySelector(".a2");
 const playA2 = () => {
@@ -213,12 +216,14 @@ const playB3 = () => {
 	b3Key.classList.add("active");
 	setTimeout(() => b3Key.classList.remove("active"),200);
 };
-b3Key.addEventListener("click", playB3)
+b3Key.addEventListener("click", playB3);
 
 
+/*******************************Keyboard Functions***************************************/
 window.addEventListener("keydown",({keyCode}) =>{
 	//Press Q
-	if (keyCode === 81) return playC2();
+	if (keyCode === 81) return playC2(); 
+
 });
 
 window.addEventListener("keydown",({keyCode}) =>{
