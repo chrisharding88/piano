@@ -220,112 +220,49 @@ b3Key.addEventListener("click", playB3);
 
 
 /*******************************Keyboard Functions***************************************/
-window.addEventListener("keydown",({keyCode}) =>{
+window.addEventListener("keydown",({keyCode}) => {
 	//Press Q
 	if (keyCode === 81) return playC2(); 
-
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 1
-	if (keyCode === 79) return playCsharp2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
+	if (keyCode === 49) return playCsharp2();
 	//Press W
 	if (keyCode === 87) return playD2();
-});
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 2
 	if (keyCode === 50) return playDsharp2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press E
 	if (keyCode === 69) return playE2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press R
 	if (keyCode === 82) return playF2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 3
 	if (keyCode === 51) return playFsharp2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press T
 	if (keyCode === 84) return playG2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 4
 	if (keyCode === 52) return playGsharp2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press Y
 	if (keyCode === 89) return playA2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press U
 	if (keyCode === 85) return playB2();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press A
 	if (keyCode === 65) return playC3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 6
 	if (keyCode === 54) return playCsharp3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press S
 	if (keyCode === 83) return playD3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 7
 	if (keyCode === 55) return playDsharp3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press D
 	if (keyCode === 68) return playE3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press F
 	if (keyCode === 70) return playF3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 8
 	if (keyCode === 56) return playFsharp3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press G
 	if (keyCode === 71) return playG3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press 9
 	if (keyCode === 57) return playGsharp3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press H
 	if (keyCode === 72) return playA3();
-});
-
-window.addEventListener("keydown",({keyCode}) =>{
 	//Press J
 	if (keyCode === 74) return playB3();
 });

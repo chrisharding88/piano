@@ -1,8 +1,10 @@
 
+
 $(document).ready(function(){
 
+
 //Sets up the css for the key name
-$('#keyname').css({'text-align':'center', 'font-size':'75px', 'margin':'0 auto' , 'top':'20px'});		
+$('#keyname').css({'text-align':'center', 'font-size':'85px', 'margin':'0 auto' , 'top':'20px'});		
 
 //When the user clicks the key, the text, or innerHTML, will show up. 
 $(".c2").click(function(){
@@ -97,6 +99,78 @@ $(".b3").click(function(){
 	$('#keyname').html("B");
 });
 
+$(document).keydown(function(e){
+	if (e.keyCode === 81){
+		$('#keyname').html("C");
+	};
+
+	if (e.keyCode === 49){
+		$('#keyname').html("C# / Db");
+	};
+	
+	if (e.keyCode === 87){
+		$('#keyname').html("D");
+	};
+	if (e.keyCode === 50){
+		$('#keyname').html("D# / Eb");
+	};
+	if (e.keyCode === 69){
+		$('#keyname').html("E");
+	};
+	if (e.keyCode === 82){
+		$('#keyname').html("F");
+	};
+	if (e.keyCode === 51){
+		$('#keyname').html("F# / Gb");
+	};
+	if (e.keyCode === 84){
+		$('#keyname').html("G");
+	};
+	if (e.keyCode === 52){
+		$('#keyname').html("G# / Ab");
+	};
+	if (e.keyCode === 89){
+		$('#keyname').html("A");
+	};
+	if (e.keyCode === 85){
+		$('#keyname').html("B");
+	};
+	if (e.keyCode === 65){
+		$('#keyname').html("C");
+	};
+	if (e.keyCode === 54){
+		$('#keyname').html("C# / Db");
+	};
+	
+	if (e.keyCode === 83){
+		$('#keyname').html("D");
+	};
+	if (e.keyCode === 55){
+		$('#keyname').html("D# / Eb");
+	};
+	if (e.keyCode === 68){
+		$('#keyname').html("E");
+	};
+	if (e.keyCode === 70){
+		$('#keyname').html("F");
+	};
+	if (e.keyCode === 56){
+		$('#keyname').html("F# / Gb");
+	};
+	if (e.keyCode === 71){
+		$('#keyname').html("G");
+	};
+	if (e.keyCode === 57){
+		$('#keyname').html("G# / Ab");
+	};
+	if (e.keyCode === 72){
+		$('#keyname').html("A");
+	};
+	if (e.keyCode === 74){
+		$('#keyname').html("B");
+	};
+	
+});
 
 
 
