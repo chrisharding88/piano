@@ -1,3 +1,7 @@
+*{
+	background-color:black;
+}
+
 
 .container{
 	height: 100%;
@@ -6,10 +10,10 @@
 .piano{
 	width: 1350px;
 	height:550px;
-	border: solid 2px black;
+	border: solid 2px white;
 	margin: 0 auto;
 	position: relative;
-	background-color: black;
+	background: linear-gradient(#909193, #000000);
 	margin-top: 150px;
 }
 
@@ -17,7 +21,16 @@
 	width: 400px;
 	height:100px;
 	border: solid 2px white;
-	background-color: #1fefd7;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px #909193,
+                 0px 0px 20px #909193,
+   				 0px 0px 30px #909193,
+   				 0px 0px 40px #909193,
+   				 0px 0px 50px #909193;
+
+
 	position: absolute;
 	left:450px;
 	top: 25px;
@@ -52,7 +65,7 @@
 	display: inline;
 	z-index: 99;
 	left:45px;
-	background-color: black;
+	background-color:black;
 	border: solid 1px white;
 }
 

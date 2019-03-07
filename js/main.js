@@ -230,7 +230,7 @@ window.addEventListener("keydown",({keyCode}) => {
 	//Press 2
 	if (keyCode === 50) return playDsharp2();
 	//Press E
-	if (keyCode === 69) return playE2();
+	if (keyCode === 68) return playE2();
 	//Press R
 	if (keyCode === 82) return playF2();
 	//Press 3

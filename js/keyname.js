@@ -169,6 +169,7 @@ $(document).keydown(function(e){
 	if (e.keyCode === 74){
 		$('#keyname').html("B");
 	};
+
 	
 });
 
